@@ -1,0 +1,31 @@
+{
+    "name": "callismart/request-parser",
+    "description": "Streaming HTTP request body parser for PHP. Fills the gaps in native $_POST/$_FILES population (PUT, PATCH, DELETE and JSON bodies) and returns post, files and query data.",
+    "type": "library",
+    "keywords": [
+        "http",
+        "request",
+        "parser",
+        "multipart",
+        "json",
+        "form-data",
+        "streaming"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Callistus Nwachukwu",
+            "email": "admin@callismart.com.ng"
+        }
+    ],
+    "require": {
+        "php": "^8.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Callismart\\RequestParser\\": "src/"
+        }
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
